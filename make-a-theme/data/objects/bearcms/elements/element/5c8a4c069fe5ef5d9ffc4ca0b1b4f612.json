@@ -1,0 +1,8 @@
+{
+    "id": "3ffu2uhxzpzebctye0ro1ga1",
+    "type": "text",
+    "data": {
+        "text": "Hey, this is a demo theme, and this is a sample text element.<div>You can login and edit the content using:<\/div><div>email: demo@example.com<\/div><div>password: 123456<\/div><div><br><\/div><div>But first:<\/div><div>1. Add your demo website to your bearcms.com account and update the 'appSecretKey' option in app\/index.php.<\/div><div>2. Run 'composer install' to install the dependencies.<\/div>"
+    },
+    "lastChangeTime": 1554228970
+}
