@@ -1,11 +1,14 @@
 <?php
 
 /*
- * Bear CMS demo theme
- * https://github.com/bearcms/demo-theme
+ * Bear CMS demos
+ * https://github.com/bearcms/demos
  * Copyright (c) Amplilabs Ltd.
  * Free to use under the MIT license.
  */
+
+// Place the secret key (from bearcms.com) here
+define('BEARCMS_APP_SECRET_KEY', 'PASTE-YOUR-APP-SECRET-KEY-HERE');
 
 require __DIR__ . '/../vendor/autoload.php';
 

@@ -1,8 +1,8 @@
 <?php
 
 /*
- * Bear CMS demo theme
- * https://github.com/bearcms/demo-theme
+ * Bear CMS demos
+ * https://github.com/bearcms/demos
  * Copyright (c) Amplilabs Ltd.
  * Free to use under the MIT license.
  */
@@ -19,7 +19,7 @@ $app->addons->add('bearcms/bearframework-addon');
 // Initialize the Bear CMS client
 $app->bearCMS->initialize([
     'serverUrl' => 'https://r05.bearcms.com/', // The Bear CMS server url
-    'appSecretKey' => 'TODO', // The Bear CMS site secret key
+    'appSecretKey' => BEARCMS_APP_SECRET_KEY, // The Bear CMS site secret key configured at public/index.php
     'defaultThemeID' => 'demo-author/demo-theme-1' // Set the default theme
 ]);
 
@@ -49,6 +49,9 @@ $app->bearCMS->themes
                                         color:' . $textColor . ';
                                         background-color:' . $backgroundColor . ';
                                         line-height:180%;
+                                    }
+                                    a{
+                                        color:' . $textColor . ';
                                     }
                                 </style>
                             </head>
