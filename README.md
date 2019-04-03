@@ -15,7 +15,7 @@ In every demo, you will find a couple of directories.
 
 - The `public` directory is the place you must point your browser to run the application. Here the `index.php` file just initializes the demo. Nothing interesting here.
 - The `data` directory stores the application data. Boring.
-- The `app` directory is the most interesting one. This is the place where the specific demo code is located. Everything starts with the `app/index.php` file, so be sure to check him first. Comments on almost every line will help you along the way.
+- The `app` directory is the most interesting one. This is the place where the specific demo code is located. Everything starts with the `app/index.php` file, so be sure to check here first. Comments on almost every line will help you along the way.
 
 ## Available demos
 
