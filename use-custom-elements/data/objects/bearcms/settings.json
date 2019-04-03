@@ -1,0 +1,13 @@
+{
+    "allowSearchEngines": true,
+    "description": "Demo sites are awesome",
+    "disabled": false,
+    "disabledText": "We'll be back in couple of minutes.",
+    "enableRSS": true,
+    "externalLinks": true,
+    "icon": "",
+    "keywords": "",
+    "language": "en",
+    "rssType": "contentSummary",
+    "title": "THIS IS A DEMO SITE"
+}
