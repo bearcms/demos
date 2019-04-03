@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=7.1.0",
+        "bearframework/bearframework": "1.*",
+        "bearcms/bearframework-addon": "1.*"
+    }
+}

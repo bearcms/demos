@@ -1,0 +1,13 @@
+{
+    "id": "e7a4gvv9f1ga1",
+    "registerTime": 1553513906,
+    "lastLoginTime": 1554292805,
+    "passwordVersion": "",
+    "hashedPassword": "29db2e096638c11bcea13211c1a5820ba4ea3664abf4f00ac8",
+    "emails": [
+        "demo@example.com"
+    ],
+    "permissions": [
+        "all"
+    ]
+}
