@@ -9,6 +9,14 @@ This repository contains some simple Bear CMS applications, that will help you l
 4. Open `http://localhost/path-to-the-demo/public/index.php` in your browser.
 Every demo application comes with an administrator user already set up so you can log in by opening `http://localhost/path-to-the-demo/public/index.php/admin` and using the email `demo@example.com` and the password `123456`.
 
+## Learning tips
+
+In every demo, you will find a couple of directories.
+
+- The `public` directory is the place you must point your browser to run the application. Here the index.php file just initializes the demo. Nothing interesting here.
+- The `data` directory stores the application data. Boring.
+- The `app` directory is the most interesting one. This is the place where the specific demo code is located. Everything starts with the `app/index.php` file so be sure to check him first. Comments on almost every line will help you along the way.
+
 ## Available demos
 
 ### [Make a theme](https://github.com/bearcms/demos/tree/master/make-a-theme)
