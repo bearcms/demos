@@ -25,4 +25,4 @@ Bear CMS provides custom HTML elements (that are processed to valid HTML tags on
 The official Bear CMS support articles are available at [https://bearcms.com/support/](https://bearcms.com/support/). We recommend checking them out to learn more about the Bear CMS project.
 
 ## Contact us
-This demos are created and maintained by the Bear CMS team. Feel free to contact us at support@bearcms.com or [bearcms.com](https://bearcms.com/).
+This demos are created and maintained by the Bear CMS team. Feel free to contact us at support@bearcms.com and [bearcms.com](https://bearcms.com/).
