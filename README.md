@@ -20,6 +20,9 @@ The website administrators will use the CMS UI to manage pages, text, images, bl
 ### [Use custom elements](https://github.com/bearcms/demos/tree/master/use-custom-elements)
 Bear CMS provides custom HTML elements (that are processed to valid HTML tags on the server) that you can use to define the content structure of a page. For example, you can specify an image (and set its default value) and later administrators can change it. More information is available at [https://bearcms.com/support/use-custom-elements/](https://bearcms.com/support/use-custom-elements/)
 
+## Learn more
+
+The official Bear CMS support articles are available at [https://bearcms.com/support/](https://bearcms.com/support/). We recommend checking them out to learn more about the Bear CMS project.
 
 ## Contact us
 This demos are created and maintained by the Bear CMS team. Feel free to contact us at support@bearcms.com or [bearcms.com](https://bearcms.com/).
