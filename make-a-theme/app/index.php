@@ -9,21 +9,23 @@
 
 use BearFramework\App;
 
+// Get a Bear Framework application instance.
 $app = App::get();
 
+// Get a context object that will be helpful below.
 $context = $app->contexts->get();
 
 // Add the Bear CMS client addon
 $app->addons->add('bearcms/bearframework-addon');
 
-// Initialize the Bear CMS client
+// Initialize the Bear CMS client.
 $app->bearCMS->initialize([
     'serverUrl' => 'https://r05.bearcms.com/', // The Bear CMS server url
     'appSecretKey' => BEARCMS_APP_SECRET_KEY, // The Bear CMS site secret key configured at public/index.php
     'defaultThemeID' => 'demo-author/demo-theme-1' // Set the default theme
 ]);
 
-// Register the demo theme
+// Register the demo theme.
 $app->bearCMS->themes
         ->register('demo-author/demo-theme-1', function(\BearCMS\Themes\Theme $theme) use ($context) {
             // This property is optional, but helps the Bear CMS client cache the theme for better performance.
